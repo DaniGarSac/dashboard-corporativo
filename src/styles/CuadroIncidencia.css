@@ -1,0 +1,22 @@
+.CuadroIncidencia {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #64748b;
+  border-radius: 4px;
+  min-width: 0;
+}
+
+.CuadroIncidencia h3,
+.CuadroIncidencia p {
+  margin: 0;
+}
+
+.CuadroIncidencia.pendiente {
+  background-color: #fef3c7;
+}
+
+.CuadroIncidencia.resuelta {
+  background-color: #dcfce7;
+}

@@ -1,0 +1,17 @@
+.ColumnaEmpleados {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.buscadorPersonal {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #64748b;
+  border-radius: 4px;
+  font-size: 16px;
+}

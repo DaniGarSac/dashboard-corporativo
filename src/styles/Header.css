@@ -1,0 +1,30 @@
+.Header {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header h1 {
+  margin: 0;
+}
+
+.Header p {
+  margin: 0;
+}
+
+.empresa {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.empresa img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
